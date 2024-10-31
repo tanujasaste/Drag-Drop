@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(9, 19, 88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .container .leftBox, .rightBox{
+    width: 300px;
+    min-height: 400px;
+    background: transparent;
+    border: 2px dotted rgba(133, 131, 131, 0.881);
+    margin: 20px;
+}
+
+.one{
+    height: 70px;
+    margin: 20px;
+    background-color: rgb(165, 42, 91);
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    cursor: grab;
+}
